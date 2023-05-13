@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/camara.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+<script src="https://unpkg.com/ml5@0.7.1/dist/ml5.min.js"></script>
+<script src="js/artyom.window.js"></script>
+
+</head>
+<body>
+
+  <img class="imagen" src="C:\Users\Ingenieria\Documents\Casa inteligente\imagenes\plano.jpg" >
+
+<div >
+ <button id="detectionAction" onclick="toggleDetecting()">Iniciar detección</button>
+  <button id="videoAction" onclick="toggleVideo()">Desactivar Video</button> 
+  <button id="configuracion" ><a href="configuracion.html">Configuración</a></button>
+  <button onclick="startRecognition()">Iniciar reconocimiento de voz</button>
+  <ul id="results"></ul>
+ </div>
+ <script src="js/camara.js"></script>
+ <div id="content">
+  <div id="data"></div>
+</div>
+<p id="activar">ACTIVAR VOZ</p>
+
+<script src="js/main.js"></script>
+
+</html>
+
+</body>
+</html>
